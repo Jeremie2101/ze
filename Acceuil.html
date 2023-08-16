@@ -2,31 +2,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="style.css">
     <title>MITNoCODE</title>
 </head>
 <body>
 
     
     <header>
-
-        <H1>BIENVENU SUR MYNoCODE</H1>
-        <nav>
-        <ul>
-            <Li><a href="Acceuil"></a></Li>
-            <li> <a href="A PROPOS DE NOUS">A PROPOS</a></li>
-            <li><a href="Cv">CV</a></li>
-            <li><a href="Travail">TRAVAIL</a></li>
-            <li> <a href="CONTACT">CONTACT</a></li>
-        </ul>
+        <nav class="menu">
+            <ul>
+                <li > <a href="#Acceuil">ACCEUIL</a></li>
+                <li> <a href="#A PROPOS DE NOUS">A PROPOS</a></li>
+                <li> <a href="#Cv">CV</a></li>
+                <li> <a href="#Travail">TRAVAIL</a></li>
+                <li> <a href="#CONTACT">CONTACT</a></li>
+            </ul>
+            <form method="post" action="traitemen.php" class="p1">
+            <input type="search" name="kj" id="rechercher">
+            </form>
         </nav>
+        <div class="i1">
+        <H1>BIENVENU SUR MYNoCODE</H1>
+        </div>
     </header>
     <main>
     <!--  -->    
-        <section>
-            <H1><a href="#A PROPOS DE NOUS"></a> A PROPOS DE NOUS</H1>
-            <H2> <i>GOMYCODE</i></H2>
+        <section class="Sec1">
+            <H2><a href="A PROPOS DE NOUS"></a> A PROPOS </H2>
+            <H3> <i>MYNoCODE</i></H3>
             <P>
-            GOMYCODE est une plateforme éducative panafricaine qui 
+            MYNoCODE est une plateforme éducative panafricaine qui 
             aide les talents de demain à améliorer leurs compétences numériques par le biais 
             de formations abordables et de qualité et de l’assistance des meilleurs instructeurs
             GOMYCODE est une plateforme éducative panafricaine qui 
@@ -49,17 +54,21 @@
             aide les talents de demain à améliorer leurs compétences numériques par le biais 
             de formations abordables et de qualité et de l’assistance des meilleurs instructeurs
             </P>
-            <img src="imag1.jpeg" alt="Texte pour les aveugles" width="480" height="320" />
-            <div>
-                <audio controls src="dda_music_le_ciel_est_ouvert_mp3_55863.mp3">
+            <div class="nas">
+                <img src="imag1.jpeg" alt="Texte pour les aveugles" width="480" height="320" />
+            </div>
+            
+            <div class="odio">
+                <audio controls src="dda_music_le_ciel_est_ouvert_mp3_55863.mp3" >
                     <a href="dda_music_le_ciel_est_ouvert_mp3_55863.mp3"> Download audio </a>
                   </audio>  
                 
             </div>
         </section>
         <!--  partie du travail-->   
-        <section>
-            <fieldset><h2><a href="#Travail"></a> Travail</h2></fieldset>
+        <section class="sec2">
+            <h2 id="Travail"> Travail</h2>
+            
             <h4>L’essor de notre travail</h4>
 <p>L’IA a connu un essor rapide dans les années 1960 et 1970, avec le développement de nouvelles techniques et technologies. Les chercheurs ont commencé à concevoir des systèmes experts, des programmes informatiques spécialisés dans un domaine spécifique, tels que la médecine ou la finance. Ces systèmes étaient capables de résoudre des problèmes complexes en utilisant des règles et des connaissances préprogrammées. L’un des premiers systèmes experts est appelé DENDRAL. Il a été développé à l’Université de Stanford pour aider les chimistes à identifier des molécules inconnues.
 
@@ -94,10 +103,10 @@ Aujourd’hui, l’IA est une discipline scientifique en pleine expansion. Il y 
                     <td>Consignes</td>
                 </tr>
                 <tr>
-                    <td>Missions</td>
-                    <td>Lieux</td>
-                    <td>Contacts</td>
-                    <td>Consignes</td>
+                    <td>taf</td>
+                    <td>structrer</td>
+                    <td>transformer</td>
+                    <td>satisfaction</td>
                 </tr>
                 
 
@@ -105,9 +114,10 @@ Aujourd’hui, l’IA est une discipline scientifique en pleine expansion. Il y 
             </table>
         </section>
          <!--  partie de la section cv--> 
-        <section>
-            <fieldset><h2><a href="#CV"></a> Presenter Votre CV</h2></fieldset> <br>
-            aide les talents de demain à améliorer leurs compétences numériques par le biais 
+        <section class="sec3">
+            <h2 id="Cv">Presenter Votre CV</h2>
+             <br>
+            <P>aide les talents de demain à améliorer leurs compétences numériques par le biais 
             de formations abordables et de qualité et de l’assistance des meilleurs instructeursGOMYCODE est une plateforme éducative panafricaine qui 
             aide les talents de demain à améliorer leurs compétences numériques par le biais 
             de formations abordables et de qualité et de l’assistance des meilleurs instructeursGOMYCODE est une plateforme éducative panafricaine qui 
@@ -115,51 +125,62 @@ Aujourd’hui, l’IA est une discipline scientifique en pleine expansion. Il y 
             de formations abordables et de qualité et de l’assistance des meilleurs instructeursGOMYCODE est une plateforme éducative panafricaine qui 
             aide les talents de demain à améliorer leurs compétences numériques par le biais 
             de formations abordables et de qualité et de l’assistance des meilleurs instructeursGOMYCODE est une plateforme éducative panafricaine qui 
-            aide les talents de demain à améliorer leurs compétences numériques par le biais
+            aide les talents de demain à améliorer leurs compétences numériques par le biais </P>
             <form method="post" action="traitement.php">
  
                 <fieldset>
                 <legend>Mon CV</legend>
                                                                               
-                 <p><label>Votre nom</label> :<br/> <input type="text" name="Votre nom" id= "nom" value="votre  nom" size="30" maxlength="20" /></p>
-                 <p><label>Votre prénom</label> : <br/> <input type="text" name="Votre Prénom" id= "nom" value="votre Prénom" size="30" maxlength="20" /></p>
+                 <p><label>Votre nom</label> :<br/> <input type="text" name="Votre nom" id= "nom" value="votre  nom" size="50" maxlength="50" /></p>
+                 <p><label>Votre prénom</label> : <br/> <input type="text" name="Votre Prénom" id= "nom" value="votre Prénom" size="50" maxlength="50" /></p>
                  <p><label>Votre adresse</label> :<br/><input type="text" name="Votre adresse" id= "nom" value="votre adresse" size="50" maxlength="50" /></p>
-                 <p><label> Code Postal</label> :<br/> <input type="text" name="Code Postal" id= "nom" value="Code Postal" size="12" maxlength="11"/></p>
-                 <p><label>Votre N° Tel.</label> : <br/><input type="text" name="Votre N° Tel." id= "nom" value="Votre N° Tel" size="13" maxlength="12" /></p>
-                <p><label>Votre adresse mail</label> : <br/><input type="text" name="Votre adresse mail" id= "nom" value="Votre adresse mail" size="40" maxlength="40" /></p>
-                <p><label>Experience</label>: <br><input type="text" name="experience" id="experience" value="votre experience" size="40" maxlength="40"></p>
+                 <p><label> Code Postal</label> :<br/> <input type="text" name="Code Postal" id= "nom" value="Code Postal" size="50" maxlength="50"/></p>
+                 <p><label>Votre N° Tel.</label> : <br/><input type="text" name="Votre N° Tel." id= "nom" value="Votre N° Tel" size="50" maxlength="50" /></p>
+                <p><label>Votre adresse mail</label> : <br/><input type="text" name="Votre adresse mail" id= "nom" value="Votre adresse mail" size="50" maxlength="50" /></p>
+                <p><label>Experience</label>: <br><input type="text" name="experience" id="experience" value="votre experience" size="50" maxlength="50"></p>
                 <input type="submit" name="Envoyez" value="Envoyez le CV">
+                
                  </fieldset>
+                 <div class="im">
+                    <img src="imag2.jpeg" alt="vois bien" width="590">
+                 </div>
                 </form>
         </section>
          <!--  partie contact--> 
-        <section>
-            <fieldset>
-            <legend><h2 id="#CONTACT">CONTACT</h2></legend> 
+        <section class="sec4">
+            <div>
+                <h2 id="CONTACT">CONTACT</h2>
+            </div>
+            <p>Rentrez vos coordonnées ici avec beaucoup de soin et veillez a une identification precise de vos donnée personnels</p>
+            <fieldset class="conta">
+            <legend>Mes coordonnées</legend> 
             <form method="post" action="traitement.php" >
                 <p>
                     <label for="nom">Nom:</label>
-                    <input type="text" name="nom" id="nom">
+                    <input type="text" name="nom" id="nom" size="45px">
                 </p>
                 <p>
                     <label for="prenom">Prenom</label>
-                    <input type="prenom" name="prenom" id="prenom">
+                    <input type="prenom" name="prenom" id="prenom" size="45px">
                 </p>
                 <p>
                     <label for="telephone">Tel</label>
-                    <input type="tel" name="number" id="telephone"> 
+                    <input type="tel" name="number" id="telephone" size="45px"> 
                 </p>
                 <P>
                     <label for="email">E-mail</label>
-                    <input type="email" name="email" id="email" placeholder="Ecrivez votre adresss">
+                    <input type="email" name="email" id="email" placeholder="Ecrivez votre adresss" size="45px">
                 </P>
                 <input type="submit" name="Envoyez" value="Envoyez le formulaire">
         
             </form>
             </fieldset>
         </section>
+        
+
     </main>
-    <P>Merci de nous avoir visiter</P>
+    
+
         
      <!-- Pied de page--> 
     <footer>

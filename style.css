@@ -1,0 +1,94 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: 15616d;
+}
+header{
+    background-color: 78290f;
+    height: 80px;
+    margin: 10px;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10x;
+}
+ul li a{
+    color: orangered;
+    letter-spacing: 0.1rem;
+}
+ul li a:hover{
+    color: 001524;
+    text-decoration: underline;
+}
+.menu li{
+    float: left;
+    padding: 35px;
+}
+.menu li a{
+    text-decoration: none;
+}
+.p1{
+    padding: 35px;
+    text-align: right;
+}
+.p1 input[type="Search"]{
+    font-size: 17px;
+}
+
+.Sec1 {
+    margin-top: 10%;
+}
+.Sec1 p{
+    position: absolute;
+    text-align: justify;
+    left: 490px;
+    bottom: -45px;
+}
+.Sec1 nas{
+    position: absolute;
+    right: -150px;
+    top: 50px;
+}
+h1,h2{
+    text-align: center;
+    color: 78290f;
+
+}
+td,th{
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse;
+    margin: 1%;
+}
+fieldset{
+    margin-right: 700px;
+}
+footer p{
+    text-align: center;
+}
+.sec4 input{
+    size-adjust: 23px;
+}
+.im{
+    position: absolute;
+    left: 700px;
+    bottom: -230%;
+}
+.conta{
+  margin-left: 500px;
+}
+.sec4{
+    background-image: url("bj.jpg");
+    background-repeat: repeat ;
+    padding-bottom: 23px;
+}
+p{
+    text-align: center;
+    text-align: justify;
+}
+.sec2 p{
+    float: left;
+    
+}
